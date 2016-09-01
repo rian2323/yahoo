@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					0D472D511D77FF8900ABEB56 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 694B2SAK2Z;
 					};
 					0D472D651D77FF8900ABEB56 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = lostmemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = memo.lostmemo;
@@ -410,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = lostmemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = memo.lostmemo;
@@ -482,6 +485,7 @@
 				0D472D7C1D77FF8A00ABEB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D472D7D1D77FF8A00ABEB56 /* Build configuration list for PBXNativeTarget "lostmemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +494,7 @@
 				0D472D7F1D77FF8A00ABEB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D472D801D77FF8A00ABEB56 /* Build configuration list for PBXNativeTarget "lostmemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				0D472D821D77FF8A00ABEB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
