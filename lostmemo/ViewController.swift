@@ -54,7 +54,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         defaultColor = toolBar.tintColor
-        myMap.showsScale = true
+        if #available(iOS 9.0, *) {
+            myMap.showsScale = true
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     override func didReceiveMemoryWarning() {
